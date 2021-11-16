@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingresar</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="bg">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+            <a class="navbar-brand" href="#">
+                <img src="./src/logo.png" width="30" height="30" /> Gestor de tareas</a>
+        </nav>
+        <br><br><br><br>
+        <div class="row justify-content-md-center">
+            <div class="card" style=" background-color: rgba(255, 248, 248, 0.856); " ;>
+                <div class="card-body">
+                    <form id="login-form" class="form" action="ingresar.php" method="post">
+                        <h3 class="text-center text-info">ingresar</h3>
+                        <div class="form-group">
+                            <label for="username" class="text-info">usuario:</label><br>
+                            <input type="text" name="username" id="username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="text-info">contraseña:</label><br>
+                            <input type="password" name="password" id="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-info btn-md" value="Acceder">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

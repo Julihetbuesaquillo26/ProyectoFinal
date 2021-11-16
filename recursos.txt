@@ -1,0 +1,20 @@
+
+enlace a plantilla nabvar
+https://www.tutlane.com/example/bootstrap/bootstrap-colored-navbars-example
+
+
+color de botones 
+https://getbootstrap.com/docs/4.0/utilities/colors/
+
+
+logo
+https://www.freepng.es/png-1k02xl/download.html
+
+login form 
+https://bootsnipp.com/snippets/bxzmb
+
+
+crud
+https://github.com/wdraghwendra/phpcrud
+
+ 

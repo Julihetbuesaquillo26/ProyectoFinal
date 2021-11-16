@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingresar</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+            <a class="navbar-brand" href="sesion.php">
+                <img src="./src/logo.png" width="30" height="30" /> Gestor de tareas</a>
+
+                
+        </nav>
+
+        <br><br><br><br>
+
+        <div class="row justify-content-md-center">
+            <div class="card" style=" background-color: rgba(255, 248, 248, 0.856); " ;>
+                <div class="card-body">
+                    <form id="login-form" class="form" action="registrar_tarea.php" method="post">
+                        <h3 class="text-center text-info">ingresar tarea</h3>
+
+                        <div class="form-group">
+                            <label for="fecha" class="text-info">Fecha:</label><br>
+                            <input type="date" name="fecha" id="fecha" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="hora" class="text-info">Hora:</label><br>
+                            <input type="time" name="hora" id="hora" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tarea" class="text-info">Tarea:</label><br>
+                            <input type="text" name="tarea" id="tarea" class="form-control" required>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="descrip" class="text-info">descripción:</label><br>
+                            <input type="text" name="descrip" id="descrip" class="form-control" required>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-info btn-md" value="Registrar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
